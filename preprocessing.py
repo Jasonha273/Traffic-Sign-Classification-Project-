@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.utils import shuffle
 from skimpy import exposure
+
 def preprocess_data(X, y=None):
     #Convert to grayscale
     weights = [0.299,0.587,0.114]
